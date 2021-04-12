@@ -10,6 +10,8 @@ Description:
     ---------------------------------------------------------
 """
 
+# Import the libraries that are needed for this
+# program to work
 from tkinter import *
 import pyglet
 import pathlib
@@ -26,5 +28,8 @@ PREVIOUS_COLOR     = None
 COLOR_UNDER_CURSOR = None
 PICKING_COLOR      = False
 
+# The path to this file's parent directory
 path = str(pathlib.Path(__file__).resolve().parent)
+
+# Adding a custom font
 pyglet.font.add_file(f"{path}/fonts/Inconsolata.ttf")

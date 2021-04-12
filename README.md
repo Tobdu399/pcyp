@@ -21,4 +21,9 @@ Python Color Picker
   - win32gui
   - threading
 
+
+### Optional libraries:
+- pyinstaller
+  - pyinstaller is used to convert the python program to an executable windows application
+
 ---
